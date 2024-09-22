@@ -1,0 +1,70 @@
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+}
+
+.postcard-header h1 {
+	width: 325px;
+	margin: 0%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	margin-top: 0%;
+}
+
+.body-left,
+.body-right {
+	padding: 0%;
+}
+
+input {
+	border: none;
+	border-bottom: grey;
+	font-family: Sofadi One;
+	border-bottom: 2px solid silver;
+	padding-top: 15px;
+	padding-left: 10px;
+	font-size: medium;
+}
+
+p {
+	font-size: medium;
+	font-family: Sofadi One;
+	font-weight: bold;
+}
+
+.postcard-footer {
+	text-align: center;
+	background: white;
+}
+
+button {
+	background-color: grey;
+	padding: 5px;
+}
+
+h1 {
+	font-family: Sofadi One;
+	padding-top: 20px;
+	padding-left: 12px;
+}
